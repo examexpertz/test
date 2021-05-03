@@ -1,0 +1,79 @@
+package com.atm;
+
+import java.io.Serializable;
+
+public class ArchibusStagingOrganization implements Serializable {
+
+	@Column(name="ARCHIBUS_ORGID")
+	private String archibusOrgid;
+	
+	@Column(name="EM_ID")
+	private String emId;
+	
+	@Column(name="FIRST_NAME")
+	private String firstName;
+	
+	@Column(name="LAST_NAME")
+	private String lastName;
+	
+	@Column(name="EM_TITLE")
+	private String emTitle;
+	
+	@Column(name="U_TITLE")
+	private String uTitle;
+	
+	@Column(name="EXTENSION")
+	private String extension;
+	
+	@Column(name="RF_ID")
+	private String rfId;
+	
+	@Column(name="STATUS")
+	private String status;
+	
+	@Column(name="DATE_HIRED")
+	private String dateHired;
+	
+	@Column(name="BL_ID")
+	private String blId;
+	
+	@Column(name="DP_ID")
+	private String dpId;
+	
+	@Column(name="DV_ID")
+	private String dvId;
+	
+	@Column(name="DIVISION_NAME")
+	private String divisionName;
+	
+	@Column(name="DEPARTMENT_NAME")
+	private String departmentName;
+	
+	@Column(name="U_HIRE_DATE")
+	private String uHireDate;
+	
+	@Column(name="END_DATE")
+	private String endDate;
+	
+	@Column(name="UPDATED_DT")
+	private String updatedDt;
+	
+	@Column(name="MODIFIED_BY")
+	private String modifiedBy;
+	
+	@Column(name="MODIFIED_DT")
+	private String modifiedDate;
+	
+	@Column(name="CREATED_BY")
+	private String createdBy;
+	
+	@Column(name="CREATED_DT")
+	private String createdDate;
+	
+	@Column(name="PROCESSING_STATUS")
+	private String processingStatus;
+	
+	@Column(name="PROCESSED_DT")
+	private String processedDate;
+	
+}
