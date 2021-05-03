@@ -1,0 +1,40 @@
+package com.atm;
+
+import java.io.Serializable;
+
+public class ArchibusStagingUser implements Serializable {
+
+	@Column(name="EM_ID")
+	private String emId;
+	
+	@Column(name="MIISID")
+	private String miisid;
+	
+	@Column(name="NEI_USER_NAME")
+	private String neiUsername;
+	
+	@Column(name="WORKFORCE_TYPE")
+	private String workforceType;
+	
+	@Column(name="EMAIL")
+	private String email;
+	
+	@Column(name="MODIFIED_BY")
+	private String modifiedBy;
+	
+	@Column(name="MODIFIED_DT")
+	private String modifiedDate;
+	
+	@Column(name="CREATED_BY")
+	private String createdBy;
+	
+	@Column(name="CREATED_DT")
+	private String createdDate;
+	
+	@Column(name="PROCESSING_STATUS")
+	private String processingStatus;
+	
+	@Column(name="PROCESSED_DT")
+	private String processedDate;
+	
+}
