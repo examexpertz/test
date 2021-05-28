@@ -1,0 +1,103 @@
+1) Programs : 
+	#1 : 
+	given an array. [5,6,3,8,9,1,4]
+	all even numbers should be sorted, 
+	but odd numbers position should not change in array. [5,4,3,6,9,1,8]
+	
+	#2 : 
+	given list of employee objects, sort based on age first (asending order),if age is same, sort based on name (descending)
+	
+	#3 : 
+	stream api questions. like 
+		-- given list of employee objects, group based on dept
+		-- indirect questions like, write a method, which takes list of integers, return even numbers list, but shouldn't use if condition
+		-- map vs flatmap
+		
+2) Design patterns : 
+	#1 : 
+	explain singleton & various ways of implementations & problems in each implementations
+	
+	#2 :  
+	explain template design pattern, and where we can apply.
+	
+	#3 : 
+	usecases of factory design pattern
+	
+	#4 : 
+	SOLID principles
+	
+3) JVM internals
+	#1 : 
+	what are the memory areas in heap memory. how garbage collector removes the elements form gc
+	
+	#2: 
+	what are all the algorithms used for garbage collection
+
+4) Data Structures & Algorithms :  
+	- binary search, time complexity
+	- quick sort, merge sort
+	
+5) Microservices: 
+	#1 : 
+	why microservices
+	
+	#2 : 
+	what are 12 factors to implement microservices
+	
+	#3 :
+	How two microservices interact each other (service disovery & load balance)
+	
+	#4 :
+	How configuration loaded to service. if any changes in config, how service konws
+	
+	#5 :
+	How Security configured in microservices.
+	
+	#6 :
+	what spring cloud feature used in your application
+	
+6) Database queries : joins, subqueries & indexes
+
+7) Spring :
+	#1 :
+		Spring AOP : when & how i should use aop (scenarios), how to configure
+    #2 :
+		Spring security: how you configured, how it internally works
+	#3 :
+		Difference between @Component & @Bean
+	#4 :
+		How EnableAutoConfiguration works in springboot
+	#5 :
+		difference between spring & spring boot. why i should go for spring boot.
+	#6 :
+		Put vs Post [in restful service]
+		
+
+9) Basic java questions
+
+10) Other Questions : 
+	#1 : 
+	i want to print a log statement. ex :  "Hello World"
+	if i code like System.out.println("Hello World"); it should print in console, &
+	if i code like System.err.println("Hello World"); it should write in text file.
+
+	#2 : 
+	in Rest APi, i want to read headers data in my api, how can i read.
+		- i explained, i can use @RequestHeader, then he asked, i want to apply this logic in some of Rest Api's. 
+		how can you achive with out duplicating code
+	#3 : 
+	implement cache of size 1000, if the same request came, it should get from cache & return the response.
+	once cache is full, for 1001th record, you need to remove a record from cache which is rarly used in cache
+	
+	#4 : 
+	i have a requirement like, if i hit rest end point,
+	 -> it will fetch id's by hitting another end point,
+	 -> it will fetch db records with those ids
+	 -> will send notificaiton by calling other end point
+	 volume will be in millions. Design system. [fault tolerence, reliable, scalable]
+	 
+	#5 :
+	how can you identify,if any api or any method is executing slow or consuming more resources
+	
+	
+	
